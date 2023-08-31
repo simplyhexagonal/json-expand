@@ -9,14 +9,14 @@ A TypeScript library for expanding flat JSON objects into nested structures base
 ## Usage
 
 ```typescript
-import { extend } from '@simplyhexagonal/json-expand';
+import expand from '@simplyhexagonal/json-expand';
 
 const input = JSON.stringify({
   "en.title": "Hello World",
   "en.description": "This is a description"
 });
 
-const output = extend(input);
+const output = expand(input);
 console.log(output);
 ```
 

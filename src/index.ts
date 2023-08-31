@@ -1,6 +1,6 @@
 import _set from 'lodash.set';
 
-export const extend = (input: string): object => {
+const expand = (input: string): object => {
   const parsedInput = JSON.parse(input);
   const result: any = {};
 
@@ -22,9 +22,11 @@ export const extend = (input: string): object => {
     } else if (typeof parsedInput[key] !== 'object') {
       _set(result, key, parsedInput[key]);
     } else {
-      _set(result, key, extend(JSON.stringify(parsedInput[key])));
+      _set(result, key, expand(JSON.stringify(parsedInput[key])));
     }
   }
 
   return result;
 };
+
+export default expand;
