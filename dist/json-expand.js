@@ -365,7 +365,7 @@ __export(src_exports, {
 });
 module.exports = __toCommonJS(src_exports);
 var import_lodash = __toESM(require_lodash());
-var expand = (input) => {
+var JsonExpand = (input) => {
   const parsedInput = JSON.parse(input);
   const result = {};
   for (const key in parsedInput) {
@@ -386,11 +386,11 @@ var expand = (input) => {
     } else if (typeof parsedInput[key] !== "object") {
       (0, import_lodash.default)(result, key, parsedInput[key]);
     } else {
-      (0, import_lodash.default)(result, key, expand(JSON.stringify(parsedInput[key])));
+      (0, import_lodash.default)(result, key, JsonExpand(JSON.stringify(parsedInput[key])));
     }
   }
   return result;
 };
-var src_default = expand;
+var src_default = JsonExpand;
 //# sourceMappingURL=json-expand.js.map
 'undefined'!=typeof module&&(module.exports=JsonExpand),'undefined'!=typeof window&&(JsonExpand=JsonExpand);

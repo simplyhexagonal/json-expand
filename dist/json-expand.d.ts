@@ -1,2 +1,2 @@
-declare const expand: (input: string) => object;
-export default expand;
+declare const JsonExpand: (input: string) => object;
+export default JsonExpand;

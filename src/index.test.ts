@@ -1,6 +1,6 @@
 import assert from 'assert';
 import fs from 'fs';
-import expand from './index';
+import expand from '../dist/json-expand';
 
 const inputData = fs.readFileSync('./src/fixtures/input.data.json', 'utf8');
 const expectedData = fs.readFileSync('./src/fixtures/expected.data.json', 'utf8');
