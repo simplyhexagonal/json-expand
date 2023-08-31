@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "Hello World",
+    "description": "This is a description",
+    "page.heading": "This is a heading",
+    "page.subheading": "This is a subheading",
+    "page.links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "About",
+        "url": "/about"
+      }
+    ],
+    "page.content.intro.heading": "This is an intro heading",
+    "page.content.intro.text": "This is an intro text"
+  },
+  "es": {
+    "title": "Hola Mundo",
+    "description": "Esta es una descripción",
+    "page.heading": "Este es un encabezado",
+    "page.subheading": "Este es un subencabezado",
+    "page.links": [
+      {
+        "label": "Inicio",
+        "url": "/"
+      },
+      {
+        "label": "Acerca de",
+        "url": "/about"
+      }
+    ],
+    "page.content.intro.heading": "Este es un encabezado de introducción",
+    "page.content.intro.text": "Este es un texto de introducción"
+  }
+}

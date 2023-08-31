@@ -1,0 +1,50 @@
+{
+  "en": {
+    "title": "Hello World",
+    "description": "This is a description",
+    "page": {
+      "heading": "This is a heading",
+      "subheading": "This is a subheading",
+      "links": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "About",
+          "url": "/about"
+        }
+      ],
+      "content": {
+        "intro": {
+          "heading": "This is an intro heading",
+          "text": "This is an intro text"
+        }
+      }
+    }
+  },
+  "es": {
+    "title": "Hola Mundo",
+    "description": "Esta es una descripción",
+    "page": {
+      "heading": "Este es un encabezado",
+      "subheading": "Este es un subencabezado",
+      "links": [
+        {
+          "label": "Inicio",
+          "url": "/"
+        },
+        {
+          "label": "Acerca de",
+          "url": "/about"
+        }
+      ],
+      "content": {
+        "intro": {
+          "heading": "Este es un encabezado de introducción",
+          "text": "Este es un texto de introducción"
+        }
+      }
+    }
+  }
+}

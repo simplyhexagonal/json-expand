@@ -1,0 +1,26 @@
+{
+  "name": "@simplyhexagonal/json-expand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/index.test.ts",
+    "build": "./scripts/build"
+  },
+  "files": [
+    "package.json",
+    "dist",
+    "README.md"
+  ],
+  "author": "Jean M. Lescure",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/lodash.set": "^4.3.7",
+    "@types/node": "^20.5.7",
+    "esbuild": "^0.19.2",
+    "lodash.set": "^4.3.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}

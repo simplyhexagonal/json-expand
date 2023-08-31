@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+mkdir -p dist
+
+esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js
