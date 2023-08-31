@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@simplyhexagonal/json-expand)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/simplyhexagonal/json-expand/.github/workflows/main.yml?branch=main)
-![License](https://img.shields.io/npm/l/@simplyhexagonal/json-expand)
+![License](https://img.shields.io/npm/l/@simplyhexagonal/json-expand?r=f4nJUd)
 
 A TypeScript library for expanding flat JSON objects into nested structures based on dot-notation keys.
 
