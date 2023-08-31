@@ -2,4 +2,6 @@
 
 mkdir -p dist
 
-esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js
+esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js \
+  && tsc -d --emitDeclarationOnly --rootDir src --outDir dist \
+  && rm dist/index.test.d.ts
