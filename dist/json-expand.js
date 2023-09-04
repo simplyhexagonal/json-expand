@@ -382,6 +382,8 @@ var JsonExpand = (input) => {
           },
           result
         );
+      } else {
+        result[key] = parsedInput[key];
       }
     } else if (typeof parsedInput[key] !== "object") {
       (0, import_lodash.default)(result, key, parsedInput[key]);

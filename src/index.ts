@@ -18,6 +18,8 @@ const JsonExpand = (input: string): object => {
           },
           result,
         );
+      } else {
+        result[key] = parsedInput[key];
       }
     } else if (typeof parsedInput[key] !== 'object') {
       _set(result, key, parsedInput[key]);

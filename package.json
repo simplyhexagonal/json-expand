@@ -1,6 +1,6 @@
 {
   "name": "@simplyhexagonal/json-expand",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A TypeScript library for expanding flat JSON objects into nested structures based on dot-notation keys.",
   "main": "dist/json-expand.js",
   "typings": "dist/json-expand.d.ts",
